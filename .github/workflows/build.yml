@@ -1,4 +1,7 @@
 name: Build .NET project       # klucz i wartość
+env:
+  DOTNET_VERSION: 10.0.x
+
 
 on:                            # obiekt zagnieżdżony
   workflow_dispatch:
@@ -13,3 +16,7 @@ jobs:
         run: pwd
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: ${{ env.DOTNET_VERSION }}
