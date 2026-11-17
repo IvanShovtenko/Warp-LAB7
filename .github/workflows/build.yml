@@ -1,7 +1,7 @@
 name: Build .NET project       # klucz i wartość
 env:
   DOTNET_VERSION: 10.0.x
-
+  PROJECT_PATH: ./WARP/Warp_proj/Warp_proj.csproj
 
 on:                            # obiekt zagnieżdżony
   workflow_dispatch:
@@ -20,3 +20,6 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
+      - name: Restore dependencies
+        shell: bash
+        run: dotnet restore "$PROJECT_PATH"
