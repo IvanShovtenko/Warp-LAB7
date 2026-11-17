@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Show directory
-        run: pwd
+        run: echo "Runner is ready"
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Setup .NET
