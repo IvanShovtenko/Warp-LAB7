@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "z:\\WARP\\Warp_proj\\Warp_proj.csproj": {}
+    "Z:\\WARP\\Warp_proj\\Warp_proj.csproj": {}
   },
   "projects": {
-    "z:\\WARP\\Warp_proj\\Warp_proj.csproj": {
+    "Z:\\WARP\\Warp_proj\\Warp_proj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "z:\\WARP\\Warp_proj\\Warp_proj.csproj",
+        "projectUniqueName": "Z:\\WARP\\Warp_proj\\Warp_proj.csproj",
         "projectName": "Warp_proj",
-        "projectPath": "z:\\WARP\\Warp_proj\\Warp_proj.csproj",
+        "projectPath": "Z:\\WARP\\Warp_proj\\Warp_proj.csproj",
         "packagesPath": "C:\\Users\\s37346\\.nuget\\packages\\",
-        "outputPath": "z:\\WARP\\Warp_proj\\obj\\",
+        "outputPath": "Z:\\WARP\\Warp_proj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\s37346\\AppData\\Roaming\\NuGet\\NuGet.Config"

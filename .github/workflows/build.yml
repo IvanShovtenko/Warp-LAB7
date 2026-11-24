@@ -1,9 +1,9 @@
-name: Build .NET project       # klucz i wartość
+name: Build .NET project       
 env:
   DOTNET_VERSION: 10.0.x
   PROJECT_PATH: ./Warp_proj/Warp_proj.csproj
 
-on:                            # obiekt zagnieżdżony
+on:                            
   workflow_dispatch:
   push:
     branches:
